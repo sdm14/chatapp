@@ -10,7 +10,7 @@ function App() {
 
   return (
     <div className="App">
-      <Route path="/" exact component={Join} />
+      <Route path="/chatapp" exact component={Join} />
       <Route path="/general" component={General} />
       <Route path="/work" component={Work} />
     </div>
